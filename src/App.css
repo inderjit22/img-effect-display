@@ -1,0 +1,151 @@
+.mainCont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  mix-blend-mode: difference;
+  filter: invert(1);
+  gap: 10px;
+}
+
+.ms {
+  width: 60px;
+}
+
+.contentBox {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  mask-image: url(../src/Star.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 0%;
+  overflow: hidden;
+}
+
+.imgCont {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/img/1IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  scale: 1.2;
+  position: relative;
+}
+
+.Textdiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+.text1 {
+  font-size: 7vw;
+  color: white
+}
+
+.text2 {
+  font-size: 7vw;
+  color: white
+}
+
+.text3 {
+  font-size: 7vw;
+  color: white
+}
+
+.text4 {
+  font-size: 7vw;
+  color: white
+}
+
+.contentBox2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  mask-image: url(../src/Star.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 0%;
+  overflow: hidden;
+}
+
+.imgCont2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/img/2IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  scale: 1.2;
+  position: relative;
+}
+
+
+.contentBox3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  mask-image: url(../src/Star.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 0%;
+  overflow: hidden;
+}
+
+.imgCont3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/img/3IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  scale: 1.2;
+  position: relative;
+}
+
+.contentBox4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  mask-image: url(../src/Star.svg);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 0%;
+  overflow: hidden;
+}
+
+.imgCont4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/img/4IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  scale: 1.2;
+  position: relative;
+}
